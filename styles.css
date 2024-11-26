@@ -1,0 +1,80 @@
+body
+{
+    background-color: black;
+}
+
+.divBase
+{
+    background-color: white;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.divOne *
+{
+    display: flex;
+    flex: auto;    
+}
+
+.subDivOneFirst 
+{
+    float: left;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.subDivOneSecond
+{
+    padding-left: 10px;
+}
+
+.subDivOneThird
+{
+    padding: 15px;
+    padding-top: 30px ;
+    padding-left: 440px;
+}
+
+.divTwo
+{
+    overflow: visible;
+}
+
+img 
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.divThree
+{
+    display: flex;
+}
+
+.iconsDiv
+{
+    width: 100%;
+}
+
+.iconsDiv *
+{
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.iconsDivRight
+{
+    float: right;
+}
+
+.iconsDivLeft
+{
+    float: left;
+}
+
+.bottomText 
+{
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
